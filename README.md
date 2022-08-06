@@ -1,6 +1,6 @@
 # eslint-config-typescript
 
-![Node.JS CI workflow](https://github.com/emahnovets/eslint-config-typescript/actions/workflows/main.yaml/badge.svg)
+![Node.JS CI workflow](https://github.com/emahnovets/eslint-config-typescript/actions/workflows/validate.yml/badge.svg)
 
 ## How to enable in projects?
 
