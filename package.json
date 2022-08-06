@@ -4,7 +4,9 @@
   "description": "Base ESlint config for TS projects",
   "main": ".eslintrc.js",
   "scripts": {
-    "lint": "eslint --config .eslintrc.local.js ."
+    "install:pre-commit-hooks": "pre-commit install --install-hooks --allow-missing-config -t pre-commit -t prepare-commit-msg -t commit-msg -f",
+    "lint": "eslint --config .eslintrc.local.js .",
+    "semantic-release": "semantic-release"
   },
   "repository": {
     "type": "git",
@@ -31,10 +33,15 @@
     "eslint-plugin-prettier": "^4.2.1"
   },
   "devDependencies": {
+    "@commitlint/cli": "^17.0.3",
+    "@commitlint/config-conventional": "^17.0.3",
+    "@semantic-release/git": "^10.0.1",
+    "@semantic-release/github": "^8.0.5",
     "eslint": "^8.21.0",
-    "prettier": "^2.7.1"
+    "prettier": "^2.7.1",
+    "semantic-release": "^19.0.3"
   },
   "publishConfig": {
-    "registry":"https://npm.pkg.github.com"
+    "registry": "https://npm.pkg.github.com"
   }
 }
