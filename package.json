@@ -1,6 +1,6 @@
 {
   "name": "@emahnovets/eslint-config-typescript",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "Base ESlint config for TS projects",
   "main": ".eslintrc.js",
   "scripts": {
@@ -33,5 +33,8 @@
   "devDependencies": {
     "eslint": "^8.21.0",
     "prettier": "^2.7.1"
+  },
+  "publishConfig": {
+    "registry":"https://npm.pkg.github.com"
   }
 }
