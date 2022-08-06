@@ -1,5 +1,7 @@
 # eslint-config-typescript
 
+![Node.JS CI workflow](https://github.com/emahnovets/eslint-config-typescript/actions/workflows/main.yaml/badge.svg)
+
 ## How to enable in projects?
 
 1. Configure project to read packages started from `@emahnovets` from github package registry by running
