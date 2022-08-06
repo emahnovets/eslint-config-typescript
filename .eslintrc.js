@@ -12,11 +12,19 @@ module.exports = {
   extends: [
     'airbnb-base',
     'airbnb-typescript/base',
+    'plugin:import/recommended',
     'plugin:@typescript-eslint/recommended',
     'plugin:prettier/recommended',
   ],
   rules: {
     'import/prefer-default-export': 'off',
     'import/no-default-export': 'error',
+  },
+  settings: {
+    'import/resolver': {
+      node: {
+        extensions: ['.js', '.ts'],
+      },
+    },
   },
 };
