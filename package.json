@@ -1,6 +1,6 @@
 {
   "name": "@emahnovets/eslint-config-typescript",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Base ESlint config for TS projects",
   "main": ".eslintrc.js",
   "scripts": {
