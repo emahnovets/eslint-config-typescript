@@ -1,0 +1,11 @@
+{
+  "eslint.validate": [
+    "javascript",
+    "typescript"
+  ],
+  "eslint.packageManager": "npm",
+  "eslint.options": { "overrideConfigFile": ".eslintrc.local.js" },
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  }
+}
